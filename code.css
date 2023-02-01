@@ -1,0 +1,211 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    min-height: 100vh;
+    font-family: 'poppins',sans-serif;
+    
+}
+header{
+    font-size: 1.5rem;
+
+}
+.form-container{
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    padding: 90px 0px 40px 10px;
+}
+header,form{
+    min-height: 20vh;
+    /* display: flex; */
+    /* justify-content: center; */
+    
+    /* align-items: center; */
+}
+
+.todo-input{
+    width: 4.5rem;
+    height: 1.7rem;
+    margin: 0.2rem;
+}
+.todo-button{
+    border: none;
+  color: white;
+  padding: 7px 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 19px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.button1 {
+    background-color: white; 
+    color: black; 
+    border: 2px solid rgb(251, 66, 66);
+  }
+  .button1:hover {
+    background-color: rgb(251, 66, 66);
+    color: white;
+  }
+  .button2 {
+    background-color: white; 
+    color: black; 
+    border: 2px solid rgb(102, 102, 250);
+  }
+  .button2:hover {
+    background-color: rgb(102, 102, 250);;
+    color: white;
+  }
+  .button3 {
+    background-color: white; 
+    color: black; 
+    border: 2px solid rgb(143, 225, 21);
+  }
+  .button3:hover {
+    background-color: rgb(143, 225, 21);
+    color: white;
+  }
+  .button4 {
+    background-color: white; 
+    color: black; 
+    border: 2px solid rgb(68, 65, 65);
+  }
+  .button4:hover {
+    background-color:  rgb(68, 65, 65);
+    color: white;
+  }
+
+
+.todo-container{
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.todo-list{
+    min-width:15%;
+    list-style: none;
+    
+
+}
+.todo{
+     background-color: red;
+      margin: 0.5rem;
+     
+     font-size: 1.5rem;
+     font-weight: bold;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+      text-align: center;
+
+}
+.todo li{
+    flex: 1;
+}
+.trash-btn{
+    background-color: red;
+    padding: 1rem;
+    cursor: pointer;
+    border: none;
+    font-size: 1.5rem;
+}
+.todo-item{
+    padding: 0rem 0.5rem;
+}
+
+
+.todo1{
+    background-color:rgb(102, 102, 250);
+     margin: 0.5rem;
+    
+    font-size: 1.5rem;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+     text-align: center;
+
+}
+.todo1 li{
+   flex: 1;
+}
+.trash-btn1{
+   background-color: rgb(102, 102, 250);
+   padding: 1rem;
+   cursor: pointer;
+   border: none;
+   font-size: 1.5rem;
+}
+.todo1-item{
+   padding: 0rem 0.5rem;
+}
+
+/* 3rd */
+
+.todo2{
+    background-color: rgb(143, 225, 21);
+     margin: 0.5rem;
+    
+    font-size: 1.5rem;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+     text-align: center;
+
+}
+.todo2 li{
+   flex: 1;
+}
+.trash-btn2{
+   background-color: rgb(143, 225, 21);
+   padding: 1rem;
+   cursor: pointer;
+   border: none;
+   font-size: 1.5rem;
+}
+.todo-item2{
+   padding: 0rem 0.5rem;
+}
+
+
+/* 4rd */
+
+.todo3{
+    background-color:rgb(68, 65, 65);
+     margin: 0.5rem;
+    
+    font-size: 1.5rem;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+     text-align: center;
+
+}
+.todo3 li{
+   flex: 1;
+}
+.trash-btn3{
+   background-color: rgb(68, 65, 65);
+   padding: 1rem;
+   cursor: pointer;
+   border: none;
+   font-size: 1.5rem;
+}
+.todo-item3{
+   padding: 0rem 0.5rem;
+}
+
+
+.fa-xmark{
+    pointer-events: none;
+}
